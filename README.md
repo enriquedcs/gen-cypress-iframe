@@ -3,7 +3,7 @@
 </a>
 
 # LambdaTest and Cypress
-Test Script for iFramce with Cypress and lambdaTest
+Test Script for iFrame Testing with Cypress and lambdaTest
 
 
 # How it works
