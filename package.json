@@ -1,0 +1,19 @@
+{
+  "name": "gen-iframe-cypress",
+  "version": "1.0.0",
+  "description": "Automation using Cypress and iframes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Automation",
+    "Cypress",
+    "iFrames"
+  ],
+  "author": "enrique dcss",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "10.7"
+  }
+}
