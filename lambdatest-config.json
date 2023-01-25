@@ -13,21 +13,21 @@
       },
       {
          "browser": "Chrome",
-         "platform": "Windows 10",
+         "platform": "Windows 11",
          "versions": [
             "latest"
          ]
       },
       {
-         "browser": "Firefox",
-         "platform": "Windows 10",
+         "browser": "Chrome",
+         "platform": "MacOS Monterey",
          "versions": [
             "latest"
          ]
       }
    ],
    "run_settings": {
-      "cypress_config_file": "cypress.json",
+      "cypress_config_file": "cypress.config.js",
       "reporter_config_file": "base_reporter_config.json",
       "build_name": "Cypress-iframes",
       "parallels": 1,
@@ -36,7 +36,7 @@
       "network": false,
       "headless": false,
       "npm_dependencies": {
-         "cypress": "9.6"
+         "cypress": "10.7"
       }
    },
    "tunnel_settings": {

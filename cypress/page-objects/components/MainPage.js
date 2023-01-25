@@ -1,7 +1,7 @@
 export default class MainPage {
 
     static iframeInput(iframe_el,ele1){
-        cy.get(iframe_el)
+        cy.get(iframe_el, { timeout: 20000})
             .should('be.visible')
             .should('not.be.empty')
             .then(($iframe) => {
@@ -9,7 +9,8 @@ export default class MainPage {
         //
         cy.wrap($body)
             .find(ele1)
-            .type('testing process{enter}')
+            .type('Cypress{enter}')
         })
     }
+
 }

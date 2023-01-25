@@ -9,7 +9,7 @@ describe('iFrame Testing Cypress', () => {
     it('Verify iframe working', () =>{
          
         //let's test iframe
-        MainPage.iframeInput("#iframe-window",'.a4bIc')
+        MainPage.iframeInput("#iframe-window",`input[name='s']`)
     })
 
 
