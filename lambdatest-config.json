@@ -27,16 +27,15 @@
       }
    ],
    "run_settings": {
-      "cypress_config_file": "cypress.config.js",
       "reporter_config_file": "base_reporter_config.json",
       "build_name": "Cypress-iframes",
-      "parallels": 1,
+      "parallels": 5,
       "specs": "./cypress/e2e/e2e_tests/*.cy.js",
       "ignore_files": "",
       "network": false,
       "headless": false,
       "npm_dependencies": {
-         "cypress": "10.7"
+         "cypress": "13"
       }
    },
    "tunnel_settings": {
